@@ -1,0 +1,29 @@
+body {
+  background: url(./img/images.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+  body textarea {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%
+   }
+
+div.comment {
+
+}
+
+section {
+  margin: 0 300px 0 25px;
+  background-color: white;
+}
+
+#comment {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#name {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#namespace {
+  background-color: rgba(255, 255, 255, 0.6);
+}

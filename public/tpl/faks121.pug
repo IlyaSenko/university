@@ -1,0 +1,18 @@
+link(rel="stylesheet" type="text/css" href="../css/comments.css")
+
+section
+  div#comments
+    - for (var x = 0; x < faks121.comments.length; x++)
+      div.comment
+        p#name #{faks121.comments[x].comment}
+        p#comment #{faks121.comments[x].name}
+  pre#add A D D  A  C O M M E N T 
+  form(action='/newcom2' method='POST')
+    p Name
+    input(type="text" name='name' required='required' id="namespace") 
+    br
+    p Your Comment
+    textarea#newcom(name='comment', rows='10', tabindex='4', required='required') 
+    br
+    input(type='submit') 
+    br

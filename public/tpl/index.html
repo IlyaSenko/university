@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="../css/styles.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+
+<div id="main">
+
+  <div id="spec">
+    <div class="span">Please, enter your faculty and speciality</div class="span">
+    <br>
+    <select id="fac">
+      <option value="FICT">FICT</option>
+      <option value="FACS">FACS</option>
+    </select>
+    <select onkeypress="handleKeyPress(event)" id="nums">
+      <option value="121">121</option>
+      <option value="126">126</option>
+    </select>
+  </div>
+</div>
+<script>
+function handleKeyPress(e){
+  var num = document.getElementById("nums").value;
+  var fac = document.getElementById("fac").value;
+  var key=e.keyCode || e.which;
+  if (key==13){
+     window.location.href = `/${fac}_${num}`;
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  margin: 0;
+  color: black; }
+
+#main {
+  background: url(./img/img_2395.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  #main .span {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 40px;
+    padding: 15px 30px;
+    width: 300px;
+    font-size: 30px; }
+  #main #spec {
+    margin: auto;
+    margin-top: 225px; }
+    #main #spec select {
+      padding: 1px 20px;
+      border-radius: 40px;
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 25px; }
+      #main #spec select option:not(:checked) {
+        background-color: rgba(255, 255, 255, 0.1); }

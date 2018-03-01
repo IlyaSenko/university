@@ -1,0 +1,26 @@
+{
+  "name": "project_university",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compass": "^0.1.1",
+    "express": "^4.16.2",
+    "gulp-dest": "^0.2.3",
+    "gulp-sass": "^3.1.0",
+    "jstransformer-highlight": "^1.0.1",
+    "node-sass": "^4.7.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "author": "",
+  "license": "ISC"
+}
